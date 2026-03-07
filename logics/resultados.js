@@ -1,4 +1,4 @@
-const claveAdmin="adm1717";
+const claveAdmin="ICRCV1717";
 
 mostrarResultados();
 
