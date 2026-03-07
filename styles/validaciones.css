@@ -2,6 +2,7 @@ body {
     font-family: Poppins;
     background: #e8f5e9;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -9,12 +10,12 @@ body {
 
 .logo {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .logo img {
     width: 260px;
 }
-
 
 .center {
     text-align: center;
@@ -31,15 +32,15 @@ button {
 
 .btn-primary {
     background: #2e7d32;
-    color: white
+    color: white;
 }
 
 .btn-warning {
     background: #f9a825;
-    color: white
+    color: white;
 }
 
 .btn-danger {
     background: #c62828;
-    color: white
+    color: white;
 }
