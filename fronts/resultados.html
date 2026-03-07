@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<title>Resultados</title>
+    <title>Resultados</title>
+    <link rel="icon" type="image/png" href="../Logos/logoICRCV.jpg">
+    <div class="logo">
+        <img src="../Logos/logoICRCV.jpg">
+    </div>
 
-<link rel="stylesheet" href="../styles/resultados.css">
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="../styles/resultados.css">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
-<script defer src="../logics/resultados.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <script defer src="../logics/resultados.js"></script>
 
 </head>
 
 <body>
 
-<h1>Resultados</h1>
+    <h1>Resultados</h1>
 
-<div id="charts">
+    <div id="charts">
 
-<canvas id="bar"></canvas>
+        <canvas id="bar"></canvas>
 
-<!--<canvas id="pie"></canvas>-->
+        <!--<canvas id="pie"></canvas>-->
 
-</div>
+    </div>
 
-<div id="ranking"></div>
+    <div id="ranking"></div>
 
-<div class="center">
+    <div class="center">
 
-<button onclick="generarPDF()">Descargar PDF</button>
+        <button onclick="generarPDF()">Descargar PDF</button>
 
-<button onclick="reiniciarVotos()">Reiniciar votos</button>
+        <button onclick="reiniciarVotos()">Reiniciar votos</button>
 
-</div>
+    </div>
 
 </body>
+
 </html>
