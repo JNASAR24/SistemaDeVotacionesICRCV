@@ -74,30 +74,23 @@ alert("Clave incorrecta");
 
 }
 
-function generarPDF(){
+async function generarPDF(){
 
-const {jsPDF}=window.jspdf;
+const {jsPDF} = window.jspdf;
 
-let doc=new jsPDF();
+const elemento = document.body;
 
-let votos=JSON.parse(localStorage.getItem("votos"));
+const canvas = await html2canvas(elemento);
 
-let y=20;
+const imgData = canvas.toDataURL("image/png");
 
-doc.text("Resultados Elección Diáconos ICRCV",20,y);
+const pdf = new jsPDF("p","mm","a4");
 
-y+=10;
+const pdfWidth = pdf.internal.pageSize.getWidth();
+const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
 
-Object.entries(votos)
-.sort((a,b)=>b[1]-a[1])
-.forEach(([n,v])=>{
+pdf.addImage(imgData,"PNG",0,0,pdfWidth,pdfHeight);
 
-doc.text(`${n}: ${v} votos`,20,y);
-
-y+=10;
-
-});
-
-doc.save("resultados.pdf");
+pdf.save("resultados.pdf");
 
 }
