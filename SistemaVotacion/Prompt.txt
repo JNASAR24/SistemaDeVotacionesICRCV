@@ -1,0 +1,18 @@
+Hola, me haces un favor, me ayudas a construir una app web teniendo en cuenta las siguietes caracteristicas?
+
+Es un sistema de votaciones para elegir 2 diaconos para la Iglesia Cristiana Reformada Cristo Viene (ICRCV).
+la idea es poner 8 imagenes (Foto candidato), Cada una con su nombre abajo
+Tematica de colores, curva de colores verde y combinaciones agradables a la vista
+los cuadros de las fotos preferiblemente con las equinas curbas
+
+Reglas de votacion
+
+Cada persona que vote, puede elejir desde 0 a maximo 2 candidatos
+luego cuando la persona le de en el boton votar, saldra otra pagina que protegera la pagina de los candidatos
+La segunda pagina, tendra 3 botones uno que dice confirmar, otro que dice corregir y otro que dice resultados
+el boton confirmar redirigira a la pagina de los candidatos, para que la siguiente persona pueda votar.
+el boton corregir permitira regresar a la pagina de candidatos, solo que si los votos errados, permitiendo que se elija nuevamente.
+el boton resultados, cuando se accione, pedira una clave, que luego de que se ingrese, se mostrara una pafina grafica de barras y una grafica tipo torta con la sumatoria de los votos
+la pagina de grafica aparte de las graficas, tambien mostrara un listado de los candidatos ordenados del que mas votos tiene al que menos votos tiene en orden decendente donde el que mas votos tiene serial el puesto 1
+
+Al final con la pagina grafica, se generara un reporte que se puede descargar en .pdf

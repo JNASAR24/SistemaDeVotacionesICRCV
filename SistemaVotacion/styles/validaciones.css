@@ -1,0 +1,25 @@
+body{
+font-family:Poppins;
+background:#e8f5e9;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.center{
+text-align:center;
+}
+
+button{
+padding:12px 20px;
+margin:10px;
+border:none;
+border-radius:10px;
+font-size:16px;
+cursor:pointer;
+}
+
+.btn-primary{background:#2e7d32;color:white}
+.btn-warning{background:#f9a825;color:white}
+.btn-danger{background:#c62828;color:white}
