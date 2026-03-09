@@ -1,12 +1,12 @@
 const candidatos = [
-    { nombre: "Fernando Castañeda", foto: "../Candidatos/FernandoCastañeda.jpeg" },
-    { nombre: "Gustavo Hábila", foto: "../Candidatos/GustavoHabila.jpeg" },
-    { nombre: "Jaime Castiblanco", foto: "../Candidatos/JaimeCastiblanco.jpeg" },
-    { nombre: "Jhonatan Osorio", foto: "../Candidatos/JhonatanOsorio.jpeg" },
-    { nombre: "Robinson Aristizabal", foto: "../Candidatos/RobinsonAristizabal.jpeg" },
-    { nombre: "Steban Osorio", foto: "../Candidatos/StebanOsorio.jpeg" },
-    { nombre: "Wilder Arce", foto: "../Candidatos/WilderArce.jpeg" },
-    { nombre: "Yaisinio Cruz", foto: "../Candidatos/YaisinioCruz.jpeg" }
+    { nombre: "Fernando Castañeda", foto: "../Candidatos/FernandoCastañeda.JPG" },
+    { nombre: "Gustavo Abila", foto: "../Candidatos/GustavoAvila.JPG" },
+    { nombre: "Jaime Castiblanco", foto: "../Candidatos/JaimeCastiblanco.JPG" },
+    { nombre: "Jhonatan Osorio", foto: "../Candidatos/JhonatanOsorio.JPG" },
+    { nombre: "Robinson Aristizabal", foto: "../Candidatos/RobinsonAristizabal.JPG" },
+    { nombre: "Steban Osorio", foto: "../Candidatos/StebanOsorio.JPG" },
+    { nombre: "Wilder Arce", foto: "../Candidatos/WilderArce.JPG" },
+    { nombre: "Yaisinio Cruz", foto: "../Candidatos/YaisinioCruz.JPG" }
 ];
 
 let seleccion = [];
