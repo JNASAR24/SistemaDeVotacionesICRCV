@@ -1,6 +1,6 @@
 const candidatos = [
     { nombre: "Fernando Castañeda", foto: "../Candidatos/FernandoCastañeda.JPG" },
-    //{ nombre: "Gustavo Avila", foto: "../Candidatos/GustavoAvila.JPG" }, 
+    { nombre: "Gustavo Avila", foto: "../Candidatos/GustavoAvila.JPG" }, 
     { nombre: "Jaime Castiblanco", foto: "../Candidatos/JaimeCastiblanco.JPG" },
     { nombre: "Jhonatan Osorio", foto: "../Candidatos/JhonatanOsorio.JPG" },
     { nombre: "Robinson Aristizabal", foto: "../Candidatos/RobinsonAristizabal.JPG" },
